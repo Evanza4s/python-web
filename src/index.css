@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Poppins:wght@400;500;600;700&family=Righteous&family=Space+Mono&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  background-color: #040217;
+  @apply text-white
+}
+.card-active{
+  @apply h-96
+}
+.logo{
+  @apply text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full bg-red-200 text-red-500 grid place-items-center;
+}
+
+.card-active .logo{
+  @apply bg-red-500 text-red-200
+} 
+
+.swiper-container {
+  width: 1040px;
+}
+
+@media screen and (min-width: 480px) {
+  .swiper-container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .swiper-container {
+    width: 1060px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .swiper-container {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .swiper-container {
+    width: 1600px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .swiper-container {
+    width: 2000px;
+  }
+}
